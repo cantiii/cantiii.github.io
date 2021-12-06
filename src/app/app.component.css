@@ -1,0 +1,55 @@
+.myContainer {
+  display: inline;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.bulb {
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.top {
+  min-height: 70%;
+  background: black;
+  color: #fecb2f;
+  text-align: center;
+}
+
+.bottom {
+  background: #fecb2f;
+  padding: 1%;
+
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  font-family: "nowreg";
+}
+
+.topName {
+  font-family: "sifonn";
+  font-size: xxx-large;
+}
+.topTitle {
+  font-family: "nowreg";
+  font-size: xx-large;
+  margin-bottom: 5%;
+}
+
+li {
+  display: inline;
+  margin: 5%;
+
+  font-family: "nowreg";
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.list-middot > li::before {
+  content: "●";
+  margin: 0.5em;
+}
